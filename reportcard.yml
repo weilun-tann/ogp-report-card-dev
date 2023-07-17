@@ -1,0 +1,89 @@
+projectId: parkingsg
+info:
+  name: ParkingSG
+  description: Parking.sg is a mobile application developed to offer more convenience for drivers to manage their parking sessions.
+  url: https://parking.sg
+  logoUrl: https://file.go.gov.sg/parking-logo.png
+  since: 2017
+team:
+  members:
+    pm: 0
+    eng: 2
+    ops: 1
+    design: 0
+cost:
+  infra: 20888
+  manpower: 47919
+  overhead: 20994
+metricGroups:
+  - label: Usage
+    icon: user
+    metrics:
+      - source: manual
+        id: total-transaction-value
+        interval: quarterly
+        label: Total value of parking transactions collected on behalf of HDB and URA
+        prefix: $
+        values:
+          - value: 5748960
+            startDate: "2023-04-01"
+      - source: manual
+        id: total-bill-savings
+        interval: quarterly
+        label: Total bill savings compared to coupon system
+        prefix: $
+        values:
+          - value: 2595050
+            startDate: "2023-04-01"
+      - source: manual
+        id: total-parking-sessions
+        interval: quarterly
+        label: Total parking sessions
+        values:
+          - value: 3853653
+            startDate: "2023-04-01"
+      - source: manual
+        id: total-vehicles
+        interval: quarterly
+        label: Total unique vehicles parked
+        values:
+          - value: 1116914
+            startDate: "2023-04-01"
+  - label: Cost
+    icon: lightning
+    metrics:
+      - source: manual
+        id: cost-per-parking-session
+        interval: quarterly
+        label: Cost per parking session
+        prefix: $
+        values:
+          - value: 0.02
+            startDate: "2023-04-01"
+      - source: manual
+        id: cost-per-active-vehicle
+        interval: quarterly
+        label: Cost per active vehicle
+        prefix: $
+        values:
+          - value: 0.08
+            startDate: "2023-04-01"
+  - label: Satisfaction
+    icon: smiley
+    metrics:
+      - source: manual
+        id: ios-app-rating
+        interval: quarterly
+        label: iOS App Store Rating
+        suffix: /5
+        values:
+          - value: 3.9
+            startDate: "2023-04-01"
+      - source: manual
+        id: android-app-rating
+        interval: quarterly
+        label: Android App Store Rating
+        suffix: /5
+        values:
+          - value: 3.8
+            startDate: "2023-04-01"
